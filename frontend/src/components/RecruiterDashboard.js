@@ -19,6 +19,14 @@ const RecruiterDashboard = () => {
                         </Link>
                     </Card>
                 </Col>
+                <Col md={6}>
+                    <Card className="shadow p-4">
+                        <h5 className="mb-4">Consultar Candidatos</h5>
+                        <Link to="/consultar">
+                            <Button variant="outline-primary" className="btn-block">Ver Kanban</Button>
+                        </Link>
+                    </Card>
+                </Col>
             </Row>
         </Container>
     );
